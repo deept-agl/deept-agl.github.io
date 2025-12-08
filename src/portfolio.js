@@ -374,7 +374,7 @@ const contactPageData = {
     description:
       "I’d love to connect! Whether you have a question, want to discuss a potential collaboration, or just want to say hi — feel free to reach out through any of the platforms below. I’ll get back to you as soon as possible.",
     resumeLink:
-      "https://drive.google.com/file/d/1Peh-nkHfRSV7ieoiYkW_pX2lSNCgRjH3/view",
+      "https://drive.google.com/file/d/1FDCMrkVHB2zDn1636DPFPO0f6P81WpEK/view?usp=drive_link",
   },
 };
 
