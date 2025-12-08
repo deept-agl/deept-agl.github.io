@@ -1,6 +1,6 @@
 import React from "react";
 import "./FeelingProud.css";
-import myImage from "./src/assets/images/deep_img_hd.png"; // replace with my file name
+import myImage from "../../assets/images/deep_img_hd.png"; // replace with my file name
 
 export default function FeelingProud() {
   return (
