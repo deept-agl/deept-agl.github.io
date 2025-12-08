@@ -4,13 +4,12 @@ import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 // import EducationImg from "./EducationImg"; //Old code
-import eduImage from "E:/deept-agl.github.io/src/assets/images/deep_img.png";
-import eduImage from "E:/deept-agl.github.io/src/assets/images/deep_img.png"; //New Image Added
+//import eduImage from "E:/deept-agl.github.io/src/assets/images/deep_img.png";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
 function Education(props) {
-  const theme = props.theme;
+  //const theme = props.theme;
   return (
     <div className="education-main">
       <Header theme={props.theme} setTheme={props.setTheme} />
