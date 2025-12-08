@@ -41,11 +41,11 @@
 .profile-pic {
   /* box-shadow: 0 5px 15px #353535;
   border-radius: 4px; */
-  width: 560px; /* adjust as needed — try 150px if you want smaller */
-  height: 560px;
+  width: 450px; /* adjust as needed — try 150px if you want smaller */
+  height: 360px;
   display: block; /* allows centering */
   margin: 10px auto; /* centers it horizontally */
-  margin-top: -85px; /* 👈 moves the image slightly upward */
+  margin-top: -35px; /* 👈 moves the image slightly upward */
   /* box-shadow: 0 5px 15px #353535; */
   border-radius: 0; /* remove circular cropping */
   box-shadow: none; /* remove drop shadow */

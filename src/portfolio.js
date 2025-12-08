@@ -11,9 +11,9 @@ const settings = {
 const greeting = {
   title: "Hello 👋.",
   title2: "Deepti",
-  logo_name: "deepti.de()",
+  logo_name: "deepti.a()",
   full_name: "Deepti Agrawal",
-  subTitle: "Data Engineer & AI Enthusiast 🔥. Always learning.",
+  subTitle: "Data Engineer & Analytics Professional 🔥. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/1XZwyGPYO4SAjLoonjMkBTnJH4nfY4NT9/view?usp=drive_link",
   mail: "mailto:deeptireachme@gmail.com",
@@ -81,7 +81,7 @@ const skills = {
       title: "Data Analysis",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Conducted deep-dive analysis on product funnel and user journey analysis",
+        "⚡ Conducted deep-dive analysis on claims funnel and patient journey analysis",
         "⚡ Developed and maintained interactive dashboards and reports",
         "⚡ Collaborated cross-functionally with product and business teams to define data requirements, translate business questions into analytical frameworks, and presented data-driven recommendations",
       ],
@@ -101,13 +101,6 @@ const skills = {
           },
         },
         {
-          skillName: "Power BI",
-          fontAwesomeClassname: "logos:microsoft-power-bi",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
           skillName: "Tableau",
           fontAwesomeClassname: "logos:tableau",
           style: {
@@ -121,13 +114,6 @@ const skills = {
             color: "#336791",
           },
         },
-        {
-          skillName: "Mixpanel",
-          fontAwesomeClassname: "simple-icons:mixpanel",
-          style: {
-            color: "#336791",
-          },
-        },
       ],
     },
   ],
@@ -135,7 +121,7 @@ const skills = {
 
 const degrees = {
   degrees: [
-    {
+    /*{
       title: "Eindhoven University of Technology",
       subtitle:
         "Erasmus Mundus Joint Master's Degree, Big Data Management and Analytics",
@@ -161,34 +147,36 @@ const degrees = {
         "⚡ Courses taken: Big Data Management, Semantic Data Management, Machine Learning, Viability of Data related Business Projects & Debates on Ethics of Big Data",
       ],
       website_link: "https://www.upc.edu/en",
-    },
+    },*/
     {
-      title: "Université Libre de Bruxelles",
+      title: "University of Texas at Austin (Executive Online Learning)",
       subtitle:
-        "Erasmus Mundus Joint Master's Degree, Big Data Management and Analytics",
-      logo_path: "ulb.png",
+        "Post Graduate Program in Data Science and Business Analytics",
+      logo_path: "mccombs.png",
       alt_name: "SSGC",
-      duration: "Sept' 2021 - Jan' 2022",
+      duration: "Nov' 2020 - Dec' 2021",
       descriptions: [
-        "⚡ This semester introduces essential topics in BI, covering data warehouses, data mining, and business processes, as well as essential aspects of data management, covering traditional relational technology and new emerging paradigms.",
-        "⚡ Courses taken: Data Warehouses, Data Mining, Business Process Management, Database Systems Architecture & Advanced Databases",
-        "⚡ Data Mining project, conducted in collaboration with STIB-MIVB, directly led to securing a three-month paid internship at the company.",
+        
+        "⚡ Completed a rigorous Post Graduate Program covering Python, Statistics, Data Mining, Machine Learning, Predictive Modeling, Time Series, SQL, and Tableau.",
+        "⚡ Delivered multiple end-to-end ML and analytics projects applying techniques learned across forecasting, segmentation, classification, risk modeling, and retail analytics.",
+        "⚡ Gained hands-on experience solving real business problems using data-driven methods across domains like finance, marketing, healthcare, and operations.",
+        "⚡ Applied industry tools such as Python, SQL, and Tableau extensively, building a strong portfolio of practical and deployable data science solutions.",
       ],
-      website_link: "https://www.ulb.be/en",
+      website_link: "https://www.mccombs.utexas.edu/execed/for-individuals/certificates/great-learning/",
     },
     {
-      title: "Savitribai Phule Pune University",
-      subtitle: "Bachelor of Engineering - Information Technology",
-      logo_path: "pu.png",
+      title: "Guru Gobind Singh Indraprastha University",
+      subtitle: "Bachelor of Engineering - Computer Science",
+      logo_path: "ggsipu.png",
       alt_name: "SSGC",
-      duration: "Jun' 2013 - May' 2017",
+      duration: "Aug' 2013 - May' 2017",
       descriptions: [
-        "⚡ Completed the Bachelor of Engineering in Information Technology, building a robust foundation in Data Structures, Database Management Systems, Software Engineering, and Python/Java programming critical for subsequent industry roles.",
-        "⚡ Consistently recognized as the Class Topper in every semester (8/8 semesters) over the four-year program and demonstrating superior technical aptitude.",
-        "⚡ Represented the college at the national level by participating in 'Smart India Hackathon 2017' at the Allahabad Nodal Center, securing a position among the top-8 teams specifically tackling challenges for the Ministry of Civil Aviation. ",
-        "⚡ Presented a technical solution during the hackathon for restricting unauthorized airport entry by implementing a system using a QR code scanner on the ticket, showcasing rapid prototyping and problem-solving skills.",
+        "⚡ Completed B.Tech in Computer Science & Engineering with Distinction, building strong foundations in Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, and Java.",
+        "⚡ Excelled across all semesters with high performance in advanced CS subjects including Compiler Design, Theory of Computation, Web Engineering, AI, and Information Security.",
+        "⚡ Built a thesis project that identified harmful drug interactions by aligning patient histories and prescriptions with an interaction database.",
+        "⚡ Designed a system that flagged risky medication combinations and suggested safer alternatives, strengthening skills in programming, database design, and applied research.",
       ],
-      website_link: "https://www.unipune.ac.in/",
+      website_link: "https://ipu.admissions.nic.in/",
     },
   ],
 };
@@ -196,33 +184,33 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Databricks Fundamentals",
+      title: "Databricks Data Engineer Associate",
       subtitle: "Databricks",
       logo_path: "databricks.png",
       certificate_link:
-        "https://drive.google.com/file/d/1k6xV5TWkmaukj1zuh3dt8u611Fjs6HSY/view",
+        "https://credentials.databricks.com/8fda2ff0-0377-4999-a729-aa00c9e14606?record_view=true",
       alt_name: "Databricks",
       color_code: "#FF3621",
     },
     {
-      title: "Managing Big Data with MySQL",
-      subtitle: "Coursera",
-      logo_path: "coursera.png",
+      title: "Snowflake Data Engineer",
+      subtitle: "Snowflake",
+      logo_path: "snowflake.png",
       certificate_link:
-        "https://drive.google.com/file/d/1yyHwllQu4FyLhfAO22Xhlf6BdL61rhyb/view",
-      alt_name: "Coursera",
+        "https://achieve.snowflake.com/c889f52d-bff8-45a3-9806-01ed87b2bbf3?record_view=true",
+      alt_name: "Snowflake DE",
       color_code: "#0056D2",
     },
     {
-      title: "Basic Statistics",
-      subtitle: "DataCamp",
-      logo_path: "datacamp.png",
+      title: "Snowflake Data Architect",
+      subtitle: "Snowflake",
+      logo_path: "snowflake.png",
       certificate_link:
-        "https://drive.google.com/file/d/1urrp28VmkRvJ_2oCUg-BG0fYQ9aDZBDX/view",
-      alt_name: "Datacamp",
+        "https://achieve.snowflake.com/4a878305-339a-4c4f-b7b7-1d0e14685e98?record_view=true",
+      alt_name: "Snowflake",
       color_code: "#03EF62",
     },
-    {
+    /*{
       title: "Process Mining: Data science in Action",
       subtitle: "Coursera",
       logo_path: "coursera.png",
@@ -248,7 +236,7 @@ const certifications = {
         "https://drive.google.com/file/d/1wPmnhN-VcOXhnbzQhJgXOSdM8hE3gZDR/view",
       alt_name: "LinkedIn",
       color_code: "#EA4335",
-    },
+    },*/
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -263,38 +251,33 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Internship",
+  subtitle: "Work and Recognitions",
   description:
-    "Possess robust experience spanning the entire data lifecycle, successfully transitioning from internship projects to taking ownership of complex engineering and analytical solutions that drive business impact.",
+    "Possess robust experience spanning the entire data lifecycle, evolving from early ML projects to leading cloud-based data engineering, pipeline optimization, and lakehouse modernization initiatives.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Senior Consultant - Artificial Intelligence & Data",
+          title: "Data Engineer Consultant - AI & Data",
           company: "Deloitte ",
           company_url: "https://www.deloitte.com/in/en.html",
           logo_path: "deloitte.png",
-          duration: "Jan 2025 - Present",
-          location: "Pune, Maharashtra | Hybrid",
-          description: `Engineered robust PySpark pipelines to connect to diverse source systems (in Parquet/Delta format), performing necessary transformations and creating compliant Contextual Data Assets (CDA) specifically for a Bank of England regulatory project.
-
-Validated and extracted data using Starburst, ensuring data quality and accuracy against strict regulatory requirements for core banking sections, demonstrating strong proficiency with industry terminology and data standards.
-
-Contributed significantly to production readiness by developing the initial PySpark code, which was subsequently optimized and converted into Scala for high-performance production implementation.
-
-Led the documentation effort by creating detailed design documents outlining the architecture, ETL logic, and validation procedures for the CDA implementation, ensuring maintainability and compliance.`,
+          duration: "Oct 2021 - Present",
+          location: "Gurugram, India | Hybrid",
+          description: `Engineered end-to-end data solutions in the Life Sciences and Health Care domain by converting raw clinical and operational data into structured datasets, dimensional models, KPI definitions and scalable SQL logic for enterprise reporting. Built metadata-driven ADF pipelines to automate daily ingestion and optimized PySpark workloads on Databricks to improve performance and stabilize high-volume healthcare pipelines. Modernized legacy reporting by migrating workloads to Snowflake, improving reliability and reducing operational cost. Co-developed an accelerator that ingests clinical datasets, maps fields intelligently, validates them against a KPI library and generates automated insights, significantly reducing manual effort. Growing from Analyst to Data Engineer, I gained hands-on experience handling schema drifts, inconsistent records, incremental updates and analytical warehouse design while collaborating with cross-functional teams to deliver meaningful data-driven outcomes.`,
           color: "#0071C5",
         },
         {
-          title: "Analytics Engineer",
-          company: "Miko.ai",
-          company_url: "https://miko.ai/",
-          logo_path: "miko.png",
-          duration: "Aug 2023 - Dec 2024",
-          location: "Mumbai, Maharashtra | Remote",
-          description: [
+          title: "Associate Analyst",
+          company: "Regus",
+          company_url: "https://www.regus.com/en-us",
+          logo_path: "regus.png",
+          duration: "July 2019 - Oct 2021",
+          location: "Gurugram, India | Hybrid",
+          description: `Worked in the business centers domain, supporting efforts to improve customer retention and sales performance by building reliable data foundations. Designed and managed ETL processes that integrated customer and sales information from multiple systems, improving data quality and enabling clearer insights for business teams. Contributed to modernizing reporting workflows through early cloud evaluations and collaborated with analysts to refine metrics and strengthen decision-making. This experience gave me a solid understanding of how well-engineered datasets drive analytics and laid the groundwork for my transition into deeper data engineering roles.`,
+          /*[
             "Developed a data pipeline using Airflow to automate data ingestion, transformation, and loading processes.",
             "Built a data lake on Azure Data Lake Storage (ADLS Gen2) to centralize and analyze large datasets. Implemented data transformations and ETL/ELT processes using PySpark to improve data quality and consistency.",
             "Implemented advanced data cleaning, transformation, and pre-processing techniques using Python and deploy solutions and integrate them within CI/CD pipelines, ensuring continuous integration and deployment of data solutions.",
@@ -302,13 +285,13 @@ Led the documentation effort by creating detailed design documents outlining the
             "Created visually appealing dashboards and interactive reports in PowerBI to communicate key performance indicators and trends effectively.",
             "Applied data modeling principles to optimize data structures for scalability and performance in PowerBI.",
             "Collaborated closely with product teams from inception to implementation, identifying product gaps and proposing data-driven solutions.",
-          ],
+          ],*/
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
-        {
-          title: "Quality Assurance Automation Engineer",
-          company: "Finastra",
+        /*{
+          title: "IT Analyst",
+          company: "Crossworld",
           company_url: "https://www.finastra.com/",
           logo_path: "finastra.png",
           duration: "Sep 2019 - Aug 2021",
@@ -323,12 +306,12 @@ Led the documentation effort by creating detailed design documents outlining the
  validation, and ensure compliance with regulatory standards.`,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
-        },
-        {
+        },*/
+        /*{
           title: "Quality Assurance Engineer",
           company: "Cybage",
           company_url: "https://www.cybage.com/",
-          logo_path: "cybage.png",
+          logo_path: "deloitte.png",
           duration: "Jun 2017 - Sep 2019",
           location: "Pune, Maharashtra | On-site",
           description: `Designed and executed comprehensive test plans for enterprise applications using Selenium
@@ -340,39 +323,34 @@ functional requirements.
  increase in user conversions.`,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
-        },
+        },*/
       ],
     },
     {
-      title: "Internship",
+      title: "Recognitions",
       experiences: [
         {
-          title: "Data Analyst - Research Intern",
-          company: "Eindhoven University of Technology",
-          company_url: "https://www.tue.nl/en/",
-          logo_path: "tue.png",
-          duration: "Mar 2023 - Aug 2023",
-          location: "Eindhoven, North Brabant, Netherlands | On-site",
-          description: `Process Mining for Emergency Room (ER) Operational Efficiency:
-Engineered and executed a comprehensive Process Mining study on 1.75 years of comprehensive ER patient visit data (Jan 2019 - Sep 2020) to identify operational bottlenecks and enhance healthcare efficiency.
-
-Developed a novel similarity algorithm to efficiently reduce trace variants in patient journeys, significantly enhancing the understanding of patient pathways compared to baseline algorithms (e.g., Alpha Miner).
-
-Validated the analytical approach and algorithm performance using two distinct datasets (including BPI Challenge 2017 & 2018), providing robust numeric analysis and evaluation metrics.
-
-Delivered actionable recommendations to hospital management focused on optimizing processes, validating clinical guidelines, and exploring infrequent behaviors to improve ER operational efficiency and patient outcomes.`,
+          title: "Magic AI Accelerator Award",
+          company: "Link to Award",
+          company_url: "https://drive.google.com/file/d/1nCEBvx0S07Eeso_FbSBS0ALKpuxCQDAl/view?usp=drive_link",
+          logo_path: "deloitte.png",
+          duration: "Mar 2025",
+          location: "Gurugram , India",
+          description: ` Recognized for delivering an end-to-end specialty analytics solution that automates the entire Life
+Sciences Patient Services lifecycle. Built over an year of sustained, rigorous work, it has since been featured in numerous
+proposals, presented to key clients, and received strong appreciation for its innovation and impact.`,
           color: "#FBBD18",
         },
         {
-          title: "Data Analyst - Intern",
-          company: "STIB-MIVB",
-          company_url: "https://www.stib-mivb.be/home",
-          logo_path: "stib.png",
-          duration: "Jul 2022 - Sep 2022",
-          location: "Brussels, Brussels Region, Belgium | On-site",
-          description: `Argos Management Reporting: Designed and delivered a harmonized management reporting system in Power BI, leveraging Power Tools (Power Query/M & DAX) to consolidate complex data and provide critical, unified insights to the Top 50 management team.
-
-Demonstrated strong analytical thinking and customer focus by translating core business needs into clear, effective reporting and visualization tools, successfully completing the high-visibility project on time and exceeding executive expectations.`,
+          title: "Cloud Migration Delivery Award",
+          company: "Link to Award",
+          company_url: "https://drive.google.com/file/d/1tW45W-tuh4kyJBlQYPQZaOOl6jxte-5H/view?usp=drive_link",
+          logo_path: "deloitte.png",
+          duration: "Feb 2023",
+          location: "Gurugram , India",
+          description: `Awarded for driving a critical large-scale cloud migration initiative that modernized a major Life
+Sciences client’s data ecosystem. The success of this effort positioned Deloitte as a preferred partner for future integration and
+planning work.`,
           color: "#4285F4",
         },
       ],
@@ -384,7 +362,7 @@ Demonstrated strong analytical thinking and customer focus by translating core b
 const projectsHeader = {
   title: "Projects",
   description:
-    "Project collection reflects a comprehensive background spanning Data Engineering, Advanced Analytics, and Research. Projects range from building high-performance ETL/ELT data pipelines (using PySpark and Delta Lake) and solving real-world operational issues through Process Mining techniques, to developing data analysis and visualization solutions for strategic product and marketing intelligence. This portfolio demonstrates proficiency across Python, SQL, and core data platforms, showcasing a commitment to translating complex data into actionable technical and business outcomes.",
+    "Project collection reflects a comprehensive background spanning Data Engineering, Advanced Analytics, and Machine Learning. Projects range from building high-performance ETL/ELT data pipelines (using Azure and AWS) and solving real-world operational issues through Process Mining techniques, to developing data analysis and visualization solutions for strategic product and marketing intelligence. This portfolio demonstrates proficiency across Python, SQL, and core data platforms, showcasing a commitment to translating complex data into actionable technical and business outcomes.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -404,11 +382,11 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Azure Databricks-Formula1 Project",
+      name: "Wine Sales-Time Series Analysis",
       url:
-        "https://github.com/tejaswinidhupad/Azure-Databricks-Formula1-Project",
+        "https://github.com/deept-agl/Wine_Sales_Time_Series_Forecasting_Project",
       description:
-        "Real World Project on Formula1 Racing using Azure Databricks, Delta Lake, Unity Catalog, Azure Data Factory.",
+        "Forecasted Rosé and Sparkling wine sales (1980–1995) using decomposition, smoothing, ARIMA/SARIMA, and RMSE analysis to generate 12-month demand predictions.",
       languages: [
         {
           name: "Python",
@@ -419,65 +397,66 @@ const projects = {
           iconifyClass: "logos:jupyter",
         },
         {
-          name: "Azure Databricks",
-          iconifyClass: "simple-icons:databricks",
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
         },
-        /* {
-          name: "Delta Lake",
-          iconifyClass: "simple-icons:deltalake",
-        }, */
         {
-          name: "Unity Catalog",
-          iconifyClass: "simple-icons:unity",
+          name: "NumPy",
+          iconifyClass: "logos:numpy",
         },
-        /* {
-          name: "Azure Data Factory",
-          iconifyClass: "simple-icons:azuredatafactory",
-        }, */
+        {
+          name: "Matplotlib",
+          iconifyClass: "logos:matplotlib-icon",
+        },
       ],
       links: [
         {
           name: "Github",
           url:
-            "https://github.com/tejaswinidhupad/Azure-Databricks-Formula1-Project",
+            "https://github.com/deept-agl/Wine_Sales_Time_Series_Forecasting_Project",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "1",
-      name: "Data Engineering Pipeline ETL - Apple Data",
+      name: "Olympics ETL Pipeline – Azure",
       url:
-        "https://github.com/tejaswinidhupad/Data-Engineering-Pipeline-ETL--Apple-Data-",
+        "https://github.com/deept-agl/Olympics_AzureDE_pipeline",
       description:
-        "Extract, Transform, Load (ETL) data pipeline designed to process and analyze Apple-related data. The goal of this project is to build a reliable and scalable data foundation for downstream analytical and BI applications.",
+        "Designed an Azure-based pipeline to ingest, process, and analyze Olympics data with Data Factory, Databricks, Data Lake Gen2, and Synapse Analytics.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos:python",
+          name: "Azure Databricks",
+          iconifyClass: "simple-icons:databricks",
         },
-        {
-          name: "Pandas",
-          iconifyClass: "simple-icons:pandas",
-        },
-        {
-          name: "Apache Airflow",
-          iconifyClass: "simple-icons:apacheairflow",
-        },
-        /*         {
-          name: "Apache Spark",
-          iconifyClass: "logos:apachespark",
-        }, */
         {
           name: "Microsoft Azure",
           iconifyClass: "logos:microsoft-azure",
         },
+        {
+          name: "Unity Catalog",
+          iconifyClass: "simple-icons:unity",
+        },
+        {
+          name: "Synapse",
+          iconifyClass: "mdi:azure",
+        }, 
+        /*{
+          name: "Apache Spark",
+          iconifyClass: "logos:apachespark",
+        }, 
+          {
+          name: "Azure Synapse",
+          iconifyClass: "logos:azure-synapse",
+        },*/
+       
       ],
       links: [
         {
           name: "Github",
           url:
-            "https://github.com/tejaswinidhupad/Data-Engineering-Pipeline-ETL--Apple-Data-",
+            "https://github.com/deept-agl/Olympics_AzureDE_pipeline",
           iconifyClass: "ri:github-fill",
         },
         /* {
@@ -489,77 +468,16 @@ const projects = {
     },
     {
       id: "2",
-      name: "Application Tracking System(ATS) using Google-Gemini",
+      name: "Voter Prediction & NLP",
       url:
-        "https://github.com/tejaswinidhupad/Application-Tracking-System-ATS-Using-Google-Gemini",
+        "https://github.com/deept-agl/election-vote-prediction-ml-nlp_project",
       description:
-        "This project introduces a cutting-edge Applicant Tracking System (ATS) leveraging the power of Google Gemini to significantly enhance the resume evaluation process.",
+        "ML models predict voter party preference while NLP analyzes presidential speeches using preprocessing, frequency analysis, and word clouds, with Gradient Boosting performing best.",
       languages: [
         {
           name: "Python",
           iconifyClass: "logos:python",
         },
-        {
-          name: "Streamlit",
-          iconifyClass: "logos:streamlit",
-        },
-        {
-          name: "Gemini API",
-          iconifyClass: "logos:google",
-        },
-        {
-          name: "PyPDF2",
-          iconifyClass: "mdi:file-pdf-box",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url:
-            "https://github.com/tejaswinidhupad/Application-Tracking-System-ATS-Using-Google-Gemini",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Gemini-Chatbot",
-      url: "https://github.com/tejaswinidhupad/Gemini-Chatbot",
-      description:
-        "An end-to-end LLM (Large Language Model) system leveraging Google Gemini and LangChain to translate natural language questions into executable SQL queries against a MySQL database.",
-      languages: [
-        {
-          name: "Google Gemini LLM",
-          iconifyClass: "logos:google",
-        },
-        {
-          name: "Streamlit for UI",
-          iconifyClass: "logos:streamlit",
-        },
-        {
-          name: "LangChain Framework",
-          iconifyClass: "simple-icons:langchain",
-        },
-        {
-          name: "Few-Shot Learning",
-          iconifyClass: "mdi:lightbulb-on-outline",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/tejaswinidhupad/Gemini-Chatbot",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Child Wasting Prediction",
-      url: "https://github.com/tejaswinidhupad/Child-Wasting-Prediction",
-      description:
-        "Built data analytics model to explore whether a better (more accurate or more generally applicable) forecasting model for predicting child wastage.",
-      languages: [
         {
           name: "Machine Learning",
           iconifyClass: "logos:tensorflow",
@@ -572,101 +490,155 @@ const projects = {
           name: "Scikit-learn",
           iconifyClass: "simple-icons:scikitlearn",
         },
-        {
-          name: "NumPy",
-          iconifyClass: "logos:numpy",
-        },
-        {
-          name: "Matplotlib",
-          iconifyClass: "logos:matplotlib-icon",
-        },
-        {
+          {
           name: "Jupyter Notebook",
           iconifyClass: "logos:jupyter",
+        },
+
+        /*{
+          name: "Streamlit",
+          iconifyClass: "logos:streamlit",
+        },
+        {
+          name: "Gemini API",
+          iconifyClass: "logos:google",
+        },
+        {
+          name: "PyPDF2",
+          iconifyClass: "mdi:file-pdf-box",
+        },*/
+      ],
+      links: [
+        {
+          name: "Github",
+          url:
+            "https://github.com/deept-agl/election-vote-prediction-ml-nlp_project",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Amazon Web Scraper - Python",
+      url: "https://github.com/deept-agl/Web_scraping_Amazon_data_using_BeautifulSoup_Python",
+      description:
+        "A Python web scraping project using BeautifulSoup to extract iPad titles, prices, and ratings from Amazon and export them into a structured CSV for analysis.",
+      languages: [
+         {
+          name: "Python",
+          iconifyClass: "logos:python",
+        },
+        {
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/tejaswinidhupad/Child-Wasting-Prediction",
+          url: "https://github.com/deept-agl/Web_scraping_Amazon_data_using_BeautifulSoup_Python",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "YouTube Analytics ETL – AWS",
+      url: "https://github.com/deept-agl/Youtube-data-ETL-Analysis-using-AWS",
+      description:
+        "Built data analytics model to explore whether a better (more accurate or more generally applicable) forecasting model for predicting child wastage.",
+      languages: [
+        {
+          name: "Process Mining",
+          iconifyClass: "mdi:chart-timeline-variant", // represents workflow/process analytics
+        },  
+        {
+          name: "Jupyter Notebook",
+          iconifyClass: "logos:jupyter",
+        },
+        {
+          name: "AWS",
+          iconifyClass: "logos:aws",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/deept-agl/Youtube-data-ETL-Analysis-using-AWS",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "5",
-      name: "Healthcare Analytics",
+      name: "Insurance Claims Visual Analytics",
       url:
-        "https://github.com/tejaswinidhupad/Master-Thesis-Healthcare-Analytics",
+        "https://github.com/deept-agl/insurance-claims-data-visualization",
       description:
-        "Engineered and executed a comprehensive Process Mining study on ER patient visit data to identify operational bottlenecks and enhance healthcare efficiency.",
+        "A Tableau dashboard project analyzing insurance claim patterns across policy types, customer demographics and settlement timelines to uncover trends and operational insights.",
       languages: [
-        {
-          name: "Process Mining",
-          iconifyClass: "mdi:chart-timeline-variant", // represents workflow/process analytics
+          {
+          name: "Python",
+          iconifyClass: "logos:python",
         },
         {
-          name: "Pandas",
-          iconifyClass: "simple-icons:pandas",
+          name: "Tableau",
+          iconifyClass: "simple-icons:tableau",
         },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos:jupyter",
+       {
+          name: "Microsoft Excel",
+          iconifyClass: "mdi:microsoft-excel",
         },
       ],
       links: [
         {
           name: "Github",
           url:
-            "https://github.com/tejaswinidhupad/Master-Thesis-Healthcare-Analytics",
+            "https://github.com/deept-agl/insurance-claims-data-visualization",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "6",
-      name: "Process Mining over Unordered Stream",
+      name: "Marketing & Retail  Analysis",
       url:
-        "https://github.com/tejaswinidhupad/Process-Mining-over-Unordered-Stream---Replication",
+        "https://github.com/deept-agl/Marketing_and_Retail_Analytics_Project",
       description:
-        "Replicated a novel Process Mining approach designed to handle out-of-order event streams using buffering and speculative processing.",
+        "A retail analytics project using RFM segmentation and Market Basket Analysis to identify churn-risk customers and uncover key product combinations for targeted marketing.",
       languages: [
         {
           name: "Process Mining",
           iconifyClass: "mdi:chart-timeline-variant", // represents workflow/process analytics
         },
         {
-          name: "Java",
-          iconifyClass: "logos:java",
+          name: "Python",
+          iconifyClass: "logos:python",
         },
-        {
+       {
           name: "Shell Scripting",
           iconifyClass: "mdi:console",
         },
         {
-          name: "Python",
-          iconifyClass: "logos:python",
-        },
-        {
-          name: "Apache Flink",
-          iconifyClass: "simple-icons:apacheflink",
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
         },
       ],
       links: [
         {
           name: "Github",
           url:
-            "https://github.com/tejaswinidhupad/Process-Mining-over-Unordered-Stream---Replication",
+            "https://github.com/deept-agl/Marketing_and_Retail_Analytics_Project",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "7",
-      name: "BPI Data Challenge 2020",
-      url: "https://github.com/tejaswinidhupad/APM_BPI_2020",
+      name: "Customer Churn Prediction",
+      url: "https://github.com/deept-agl/Customer_Churn_Analysis_Capstone_Project",
       description:
-        "This project contains the technical part of Predicting Rejected Declarations in the Travel Management System: BPI Data Challenge 2020.",
+        "End-to-end churn prediction using EDA, feature engineering, and ML modeling to identify drivers of churn and accurately predict at-risk customers.",
       languages: [
         {
           name: "Process Mining",
@@ -688,50 +660,70 @@ const projects = {
           name: "NumPy",
           iconifyClass: "logos:numpy",
         },
-        {
-          name: "Tabulate",
-          iconifyClass: "mdi:table",
-        },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/tejaswinidhupad/APM_BPI_2020",
+          url: "https://github.com/deept-agl/Customer_Churn_Analysis_Capstone_Project",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "8",
-      name: "Analyzing HIV Treatment Trial",
-      url: "https://github.com/tejaswinidhupad/Analyzing-HIV-Treatment-Trial",
-      description: "Analyzing HIV Treatment trial using SAS Studio.",
+      name: "Survey Analysis – Statistical Methods",
+      url: "https://github.com/deept-agl/statistical-methods-and-decision-making-project",
+      description: "Statistical analysis covering wholesale customer spend, student survey probabilities, and shingle moisture tests through ANOVA, contingency tables, variability checks, and t-tests.",
       languages: [
         {
-          name: "SAS",
-          iconifyClass: "mdi:chart-box-outline",
+          name: "Python 3.9",
+          iconifyClass: "logos:python",
+        },
+        {
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
+        },
+        {
+          name: "NumPy",
+          iconifyClass: "logos:numpy",
+        },
+        {
+          name: "Tableau",
+          iconifyClass: "simple-icons:tableau",
         },
       ],
       links: [
         {
           name: "Github",
           url:
-            "https://github.com/tejaswinidhupad/Analyzing-HIV-Treatment-Trial",
+            "https://github.com/deept-agl/statistical-methods-and-decision-making-project",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "9",
-      name: "Selectivity & Join estimations for Range Types in PostgreSQL",
+      name: "Financial Risk Analytics",
       url:
-        "https://github.com/tejaswinidhupad/database-system-architecture-project",
+        "https://github.com/deept-agl/Financial_Risk_Analytics_Project",
       description:
-        "To improve the overall scheme of statistics collection and cardinality estimation for range types in PostgreSQL.",
+        "Predicts company default risk using financial ratios and growth indicators, with preprocessing, EDA, and classification models to identify high-risk firms and key drivers.",
       languages: [
+       {
+          name: "Machine Learning",
+          iconifyClass: "logos:tensorflow",
+        },
         {
-          name: "PL/pgSQL",
-          iconifyClass: "simple-icons:postgresql",
+          name: "PySpark - MLlib",
+          iconifyClass: "simple-icons:apachespark",
+        },
+        {
+          name: "Jupyter Notebook",
+          iconifyClass: "logos:jupyter",
+        },
+         {
+          name: "Data Mining",
+          iconifyClass: "mdi:database-search",
         },
         {
           name: "Shell",
@@ -742,34 +734,34 @@ const projects = {
         {
           name: "Github",
           url:
-            "https://github.com/tejaswinidhupad/database-system-architecture-project",
+            "https://github.com/deept-agl/Financial_Risk_Analytics_Project",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "10",
-      name: "Idle Compute",
+      name: "ML Regression & Classification",
       url:
-        "https://github.com/tejaswinidhupad/Big-Data-Management-Project-Idle-Compute",
+        "https://github.com/deept-agl/predictive-modelling-linear-logistic-lda-project",
       description:
-        "Implementation of a big data management and analysis backbone architecture using PySpark for distributed and scalable data ingestion and MLlib for machine learning analysis.",
+        "ML case studies predicting zirconia prices and holiday package opt-ins using Linear Regression, Logistic Regression, and LDA, with supporting EDA, preprocessing, and evaluation.",
       languages: [
         {
           name: "Machine Learning",
           iconifyClass: "logos:tensorflow",
         },
         {
-          name: "Parquet",
-          iconifyClass: "simple-icons:apacheparquet",
+          name: "Python 3.9",
+          iconifyClass: "logos:python",
         },
         {
-          name: "Hadoop - HDFS",
-          iconifyClass: "simple-icons:apachehadoop",
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
         },
         {
-          name: "PySpark - MLlib",
-          iconifyClass: "simple-icons:apachespark",
+          name: "NumPy",
+          iconifyClass: "logos:numpy",
         },
         {
           name: "Jupyter Notebook",
@@ -780,17 +772,17 @@ const projects = {
         {
           name: "Github",
           url:
-            "https://github.com/tejaswinidhupad/Big-Data-Management-Project-Idle-Compute",
+            "https://github.com/deept-agl/predictive-modelling-linear-logistic-lda-project",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "11",
-      name: "Optimizing Retail Inventory",
-      url: "https://github.com/tejaswinidhupad/Machine-Learning-Project",
+      name: "Data Clustering & Claim Prediction",
+      url: "https://github.com/deept-agl/data-mining-clustering-and-classification",
       description:
-        "Forecasting Retail Unit Sales for Favorita Stores using Time Series Analysis.",
+        "Customer segmentation using clustering and insurance claim prediction with CART, Random Forest, and ANN, backed by EDA, preprocessing, and model evaluation.",
       languages: [
         {
           name: "Machine Learning",
@@ -800,19 +792,31 @@ const projects = {
           name: "Jupyter Notebook",
           iconifyClass: "logos:jupyter",
         },
+        {
+          name: "Data Mining",
+          iconifyClass: "mdi:database-search",
+        },
+        {
+          name: "Scikit-learn",
+          iconifyClass: "simple-icons:scikitlearn",
+        },
+        {
+          name: "NumPy",
+          iconifyClass: "logos:numpy",
+        },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/tejaswinidhupad/Machine-Learning-Project",
+          url: "https://github.com/deept-agl/data-mining-clustering-and-classification",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
     {
       id: "12",
-      name: "HackMyRide",
-      url: "https://github.com/tejaswinidhupad/Data-Mining---HackMyRide",
+      name: "Advanced Statistics — ANOVA & PCA",
+      url: "https://github.com/deept-agl/anova-and-pca-advanced-statistics_project",
       description:
         "Analyzed STIB-MIVB public transit data to model vehicle speed and delay, forecast arrival times, and infer modes of transport from GPS tracking data.",
       languages: [
@@ -825,51 +829,43 @@ const projects = {
           iconifyClass: "logos:jupyter",
         },
         {
-          name: "Kepler.gl",
-          iconifyClass: "mdi:map",
+          name: "Matplotlib",
+          iconifyClass: "logos:matplotlib-icon",
         },
         {
           name: "Tableau",
-          iconifyClass: "logos:tableau",
+          iconifyClass: "simple-icons:tableau",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/tejaswinidhupad/Data-Mining---HackMyRide",
+          url: "https://github.com/deept-agl/anova-and-pca-advanced-statistics_project",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
-    {
+   {
       id: "13",
-      name: "Knowledge Graph",
-      url: "https://github.com/tejaswinidhupad/SDM-Lab-3",
+      name: "MedCare Drug Interaction",
+      url: "https://github.com/deept-agl/medcare-drug_interaction",
       description:
-        "Designed and implemented a data ontology (TBOX/ABOX) on a Knowledge Graph to define concepts, model relationships, and enable advanced semantic querying of data instances.",
+        "A healthcare system that centralizes patient records, detects harmful drug interactions, and helps doctors make safer, faster prescription decisions through intelligent data analysis.",
       languages: [
         {
-          name: "Apache Jena API",
-          iconifyClass: "simple-icons:apache",
-        },
-        {
-          name: "SPARQL",
-          iconifyClass: "mdi:graphql",
-        },
-        {
-          name: "GraphDB",
-          iconifyClass: "mdi:graph-outline",
+          name: "Python ",
+          iconifyClass: "logos:python",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/tejaswinidhupad/SDM-Lab-3",
+          url: "https://github.com/deept-agl/medcare-drug_interaction",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
-    {
+    /*{
       id: "14",
       name: "Realtime Database with Firebase",
       url: "https://github.com/tejaswinidhupad/Realtime-Database-with-Firebase",
@@ -897,7 +893,7 @@ const projects = {
           iconifyClass: "ri:github-fill",
         },
       ],
-    },
+    },*/
   ],
 };
 

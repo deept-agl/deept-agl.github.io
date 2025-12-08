@@ -19,11 +19,11 @@ function Education(props) {
             {/* <div className="heading-img-div">
               <EducationImg theme={theme} />
             </div> */}
-            <img
+            {/*<img
               src={eduImage}
               alt="Education Illustration"
               className="education-image"
-            />
+            />/*
             <div className="heading-text-div">
               <h1 className="heading-text" style={{ color: theme.text }}>
                 Education
@@ -44,7 +44,7 @@ function Education(props) {
                 adaptability and a broad international perspective on data
                 science.
               </p>
-            </div>
+            </div>*/}
           </div>
         </Fade>
         <Educations theme={props.theme} />
