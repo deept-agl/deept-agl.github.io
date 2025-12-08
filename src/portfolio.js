@@ -15,7 +15,7 @@ const greeting = {
   full_name: "Deepti Agrawal",
   subTitle: "Data Engineer & Analytics Professional 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1XZwyGPYO4SAjLoonjMkBTnJH4nfY4NT9/view?usp=drive_link",
+    "https://drive.google.com/file/d/1FDCMrkVHB2zDn1636DPFPO0f6P81WpEK/view?usp=drive_link",
   mail: "mailto:deeptireachme@gmail.com",
 };
 
