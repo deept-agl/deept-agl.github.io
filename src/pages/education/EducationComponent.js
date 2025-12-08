@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 // import EducationImg from "./EducationImg"; //Old code
+import eduImage from "E:/deept-agl.github.io/src/assets/images/deep_img.png";
 import eduImage from "E:/deept-agl.github.io/src/assets/images/deep_img.png"; //New Image Added
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
