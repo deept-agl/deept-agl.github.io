@@ -15,7 +15,7 @@ const greeting = {
   full_name: "Deepti Agrawal",
   subTitle: "Data Engineer & Analytics Professional 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1FDCMrkVHB2zDn1636DPFPO0f6P81WpEK/view?usp=drive_link",
+    "https://drive.google.com/file/d/11JOQ9e5ID6NlIYJpPV_bRrtsl3YR3tJA/view?usp=drive_link",
   mail: "mailto:deeptireachme@gmail.com",
 };
 
@@ -66,6 +66,13 @@ const skills = {
           fontAwesomeClassname: "logos:microsoft-azure",
           style: {
             color: "#f89820",
+          },
+        },
+        {
+          skillName: "Snowflake",
+          fontAwesomeClassname: "logos:snowflake-icon",
+          style: {
+            color: "#29B5E8"
           },
         },
         {
@@ -149,7 +156,7 @@ const degrees = {
       website_link: "https://www.upc.edu/en",
     },*/
     {
-      title: "University of Texas at Austin (Executive Online Learning)",
+      title: "University of Texas at Austin (Great Learning-Online Program)",
       subtitle:
         "Post Graduate Program in Data Science and Business Analytics",
       logo_path: "mccombs.png",
@@ -330,6 +337,16 @@ functional requirements.
       title: "Recognitions",
       experiences: [
         {
+          title: "Snowflake Squad Member 2025",
+          company: "Link to Award",
+          company_url: "https://developerbadges.snowflake.com/bbe9f91c-a7ac-4d23-bcbc-762d9d017e5f?record_view=true",
+          logo_path: "snowflake.png",
+          duration: "July 2025",
+          location: "Gurugram , India",
+          description: `Chosen for the Snowflake Squad for contributions including technical articles, feature insights, data engineering guidance, and active involvement in community events and certifications.`,
+          color: "#4285F4",
+        },
+        {
           title: "Magic AI Accelerator Award",
           company: "Link to Award",
           company_url: "https://drive.google.com/file/d/1nCEBvx0S07Eeso_FbSBS0ALKpuxCQDAl/view?usp=drive_link",
@@ -340,6 +357,26 @@ functional requirements.
 Sciences Patient Services lifecycle. Built over an year of sustained, rigorous work, it has since been featured in numerous
 proposals, presented to key clients, and received strong appreciation for its innovation and impact.`,
           color: "#FBBD18",
+        },
+        {
+          title: "Data Analysis Impact Award",
+          company: "Link to Award",
+          company_url: "https://drive.google.com/file/d/1psrYxVLMxtuTh26GiWvjJT1DQrIMBWBL/view?usp=drive_link",
+          logo_path: "deloitte.png",
+          duration: "Aug 2023",
+          location: "Gurugram , India",
+          description: `Recognized for independently driving the data analysis effort and establishing a solid foundation that contributed to winning the next phase of the project.`,
+          color: "#4285F4",
+        },
+        {
+          title: "Medical Imaging ML Hackathon",
+          company: "Link to Award",
+          company_url: "https://drive.google.com/file/d/1aY6yPDHaunG2YrU2YmRnFMVSs0wjUV2C/view?usp=drive_link",
+          logo_path: "deloitte.png",
+          duration: "July 2023",
+          location: "Gurugram , India",
+          description: `Recognized for an exceptional team submission in a medical imaging hackathon for developing a DICOM-based tumor detection ML system, noted for its depth and presentation quality.`,
+          color: "#4285F4",
         },
         {
           title: "Cloud Migration Delivery Award",
@@ -374,7 +411,7 @@ const contactPageData = {
     description:
       "I’d love to connect! Whether you have a question, want to discuss a potential collaboration, or just want to say hi — feel free to reach out through any of the platforms below. I’ll get back to you as soon as possible.",
     resumeLink:
-      "https://drive.google.com/file/d/1FDCMrkVHB2zDn1636DPFPO0f6P81WpEK/view?usp=drive_link",
+      "https://drive.google.com/file/d/11JOQ9e5ID6NlIYJpPV_bRrtsl3YR3tJA/view?usp=drive_link",
   },
 };
 
